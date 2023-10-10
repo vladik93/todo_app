@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6.4rem;
+  background: #e1e1e1;
+  z-index: 50;
+  padding: 0 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-logo {
+  width: 4.8rem;
+}
+
+.header-col {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.list-dropdown {
+  padding-right: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: none;
+  background: none;
+  color: #fff;
+}
