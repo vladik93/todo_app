@@ -1,5 +1,5 @@
 .app {
-  /* height: 100vh; */
+  min-height: 100vh;
   background-color: #bbb;
 }
 
@@ -10,4 +10,26 @@
 .btn-icon {
   border: none;
   background: none;
+}
+
+.text-sm {
+  font-size: 1.4rem;
+}
+
+input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked {
+  background: #eee;
+  border: none;
+}
+
+input[type="checkbox"]::before {
+  content: "";
 }
